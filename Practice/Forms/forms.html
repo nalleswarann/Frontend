@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Registration</title>
+</head>
+<body>
+    <center>
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <table>
+        <form action="\">
+            <tr>
+                <th>Roll No:</th>
+                <td><input type="text" placeholder="Enter the Rollno" id="rno" name="rno" size="57"></td>
+            </tr>
+            <tr>
+                <th>Name: </th>
+                <td><input type="text" placeholder="Enter First name" id="fname" name="fname" size="25"> - <input type="text" placeholder="Enter Last name" id="lname" name="lname" size="25"></td>
+            </tr>
+            <tr>
+                <th>Father Name:</th>
+                <td><input type="text" placeholder="Enter Father name" id="fathername" name="fathername" size="57"></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email" placeholder="Enter Email Id" id="eid" name="eid" size="57"></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" placeholder="Enter Password" id="pass" name="pass" size="57" required></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td><input type="radio" name="gender" id="gender">Male
+                    <input type="radio" name="gender" id="gender">Female
+                    <input type="radio" name="gender" id="gender">Others
+                </td>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <td>
+                    <input type="number" placeholder="Day" name="dd" id="dd" min="1" max="31" size="2">
+                    <input type="number" placeholder="Month" name="mm" id="mm" min="1" max="12" size="12">
+                    <input type="number" placeholder="Year" name="yyyy" id="yyyy" min="1900" max="2025" size="4">
+                </td>
+            </tr>
+            <!-- <tr>
+                <th>Date Of Birth</th>
+                <td>
+                    <input type="date" name="dob" id="dob" min="1900-01-01" max="2025-10-10">
+                </td>
+            </tr> -->
+            <tr>
+                <th>Mobile Number</th>
+                <td>
+                    <input type="number" name="no" id="no"  value="+91" size="2" readonly>
+                </td>
+            </tr>
+            <tr>
+                <th>Department</th>
+                <td>
+                    <input type="checkbox" name="dept" id="cse">Computer Science
+                    <input type="checkbox" name="dept" id="it">Information Technology
+                    <input type="checkbox" name="dept" id="bio">Biology
+                    <input type="checkbox" name="dept" id="phy">Physics
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Register"></td>
+                <td><input type="reset" value="Clear"></td>
+            </tr>
+        </form>
+    </table>
+    </center>
+</body>
+</html>

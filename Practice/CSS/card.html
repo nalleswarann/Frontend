@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+    <link rel="stylesheet" href="card.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div {
+            width: 50%;
+            height: 700px;
+            margin-top: 50px;
+            margin-left: 400px;
+            padding: 20px;
+            border: 3px solid #89CFF0;
+            color: #000080;
+            border-radius: 10px;
+        }
+
+        span {
+            float: right
+        }
+        
+        .bold{
+            font-weight: bold;
+        }
+
+        pre {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 style="text-align: center;">Leave Letter</h1>
+        <p style="text-align: right;" class="p1">Date: 14-10-25</p>
+        <p style="text-align: right;">Place: Madurai, Tamil Nadu</p>
+
+        <p class="from"><span class="bold" style="float: left;">From,</span> <br>
+            Nalleswaran N Pichai,<br>
+            Trainee - Visup Infotech, <br>
+            Kalavasal, Madurai</p>
+
+        <!-- <pre class="pre">
+            From,
+            Nalleswaran N Pichai,
+            Trainee - Visup Infotech,
+            Kalavasal, Madurai
+        </pre> -->
+
+        <p id="to"><span class="bold" style="float: left;">To,</span><br>
+            The Team Leader,<br>
+            Visup Infotech,<br>
+            Kalavasal, Madurai
+        </p>
+
+        <p class="subject"><b>Subject:</b> Leave application</p>
+
+        <p id="respect" class="bold">Respected Sir/Madam,</p>
+
+        <p class="content">I am writing to inform you that I will not be able to attend the session from 10-10-25 to 11-10-25 due to family function.
+
+            Kindly grant me leave for the mentioned period. I shall be grateful for your consideration.</p>
+
+        <p style="text-align: center;">Thanking you,</p>
+
+        <p class="footer">Signature Yours <span>Sincerely,</span><br>
+           Nalleswaran  <span>Nalleswaran</span></p>
+
+        
+    </div>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        
+    </ul>
+</body>
+
+</html>
