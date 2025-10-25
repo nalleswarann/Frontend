@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  ;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header nav {
+  font-family: 'SF Pro Rounded', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #181818;
+  color: #d1d1d1;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 200px;
+}
+
+nav li a {
+  color: #d1d1d1;
+  font-weight: 500;
+  margin: 0 15px;
+}
+
+nav li a:hover {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.landing_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 300px);
+  background: #ffffff;
+}
+
+.landing_container {
+  margin: 10px 400px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.landing_container h1 {
+  font-size: 40px;
+  color: #1f7cca;
+}
+
+.landing_container p {
+  margin-top: 30px;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.landing_container .signup {
+  margin-top: 50px;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 18px;
+  background: #1f7cca;
+  border-radius: 10px;
+}
+
+.signup:hover {
+  color: #d1d1d1;
+  transition: color 0.3s ease;
+}
+
+.signup_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-left: 80px;
+}
+
+.signup_content {
+  flex: 1;
+  padding: 2.5rem;
+}
+
+.signup_content h1 {
+  font-size: 34px;
+}
+
+.signup_content_p {
+  font-size: 14px;
+  margin: 10px auto 40px 0;
+}
+
+.input_group {
+  margin-bottom: 2rem;
+}
+
+.input_group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  color: #555;
+}
+
+.input_group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s;
+}
+
+.input_group input:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  /* background: #2575fc; */
+  background: #181818;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #1a5bd8;
+}
+
+.login_link {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.login_link a {
+  color: #1a5bd8;
+}
+
+.login_link a:hover {
+  text-decoration: underline;
+  transition: color 0.3s, border-bottom 0.3s ease;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.signup_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.signup_icon a {
+  color: #1a5bd8;
+  font-size: 20px;
+}
+
+.signup_image {
+  flex: 1;
+  height: 100%;
+}
+
+.signup_image img {
+  width: 730px;
+  object-fit: cover;
+  overflow: hidden;
+  margin: 20px 5px;
+  border-radius: 20px;
+}
+
+/* Stock Page */
+
+
